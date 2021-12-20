@@ -1,10 +1,25 @@
 # SNHUPortfolio
 
-How do I interpret user needs and implement them into a program? How does creating “user stories” help with this?
-  The best way to understand what users need from a program is to hear directly from them. User feedback can direct where to focus efforts in development. User stories can help with this by defining what user expectations are for a given program.
-  
-How do I approach developing programs? What agile processes do I hope to incorporate into my future development work?
-  The first step to developing a program is to determine what the program is expected to do. While this may change many times during the development process, we need baseline to start. I can see the usefullness of many aspects of agile, from the product backlog, user stories, and sprints being meaningful ways to maintain the project and ensure the goals are met.
-  
-What does it mean to be a good team member in software development?
-  No matter their role, communication is one of the most important steps in being a good team member. There can be many roadblocks that prevent a project from finishing as intended, from changes in scope to issues in development, and without clear communication, the team may be left in the dark when these issues arise. By having direct lines of communication across the team, team members can be kept up-to-date of all progress and the project and can shift around to help with issues as they arise.
+Summarize the project and what problem it was solving.
+
+The project is a clock displaying the current time in 12-hour and 24-hour format. Through the menu, the user is able to adjust the clock by adding hours, minutes, and seconds to the time. These changes are reflected in the clock and remain as long as the program is running.
+
+What did you do particularly well?
+
+I believe the modularization of the code was done well. By breaking up the functionality of the code into various functions, the code becomes easier to read through and understand. The use of functions also allows for the ease of making changes to the code without having much effect on the rest of the program.
+
+Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+
+The biggest change I would make is having the clock tick off each second. As written, the clock only refreshes when the user makes a change, which can make it hard to see the effect their input as, especially when adding seconds. While it may not be more efficient or secure, I believe it would give a better user experience.
+
+Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
+
+Learning how to get and use the current time was one of the hardest parts of this project. It took many searches to find the method that i could understand and use. As usual, StackOverflow was a valuable tool in the process and will be a useful resource when trying to understand how to make things work.
+
+What skills from this project will be particularly transferable to other projects or course work?
+
+This was a good project for helping understand how good use of things like functions and comments can provide for code that is easy to understand. Being able to write readable code is a valuable skill that will be useful throughout the rest of my studies and career.
+
+How did you make this program maintainable, readable, and adaptable?
+
+As previously discussed, the use of functions allows for the code to be easier to read and make changes to. Someone reading through the main() function can follow along with how the code works without getting into the full details. The modularity of the code allows for changes to be made without affecting other sections of the program.
